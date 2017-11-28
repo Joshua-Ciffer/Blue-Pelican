@@ -1,4 +1,4 @@
-// Joshua Ciffer 7/3/2017
+// Joshua Ciffer 7/3/2017 //
 
 public class Exercises {
 	
@@ -123,10 +123,6 @@ public class Exercises {
 				System.out.println(j) ;
 		}
 		
-		
-		
-		
-
 	}
 
 }

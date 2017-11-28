@@ -1,4 +1,4 @@
-// Joshua Ciffer 6/9/2017
+// Joshua Ciffer 6/9/2017 //
 
 import java.util.Scanner ;
 
@@ -19,6 +19,7 @@ public class Program28 {
 			i++ ;
 		} while (i < lines) ;
 		numInput.close() ;
+		
 	}
 
 }

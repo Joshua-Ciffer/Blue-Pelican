@@ -1,4 +1,4 @@
-// Joshua Ciffer 6/8/2017
+// Joshua Ciffer 6/8/2017 //
 
 import java.util.Scanner ;
 
@@ -25,6 +25,7 @@ public class Program24 {
 		System.out.println("The highest number you entered is " + high + ". ") ;
 		System.out.println("The lowest number you entered is " + low + ".") ;
 		numInput.close() ;
+		
 	}
 
 }

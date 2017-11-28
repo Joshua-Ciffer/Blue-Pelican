@@ -1,4 +1,4 @@
-// Joshua Ciffer 6/14/2017
+// Joshua Ciffer 6/14/2017 //
 
 import java.util.Scanner ;
 
@@ -85,6 +85,5 @@ public class Review {
 	public void six() {
 		
 	}
-	
 	
 }

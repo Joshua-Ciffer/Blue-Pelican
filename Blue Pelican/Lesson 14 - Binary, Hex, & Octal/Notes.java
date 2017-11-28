@@ -1,4 +1,4 @@
-// Joshua Ciffer 7/3/2017
+// Joshua Ciffer 7/3/2017 //
 
 public class Notes {
 

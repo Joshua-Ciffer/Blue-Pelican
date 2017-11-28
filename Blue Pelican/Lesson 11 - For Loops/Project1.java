@@ -1,11 +1,10 @@
-// Joshua Ciffer 5/8/2017
+// Joshua Ciffer 5/8/2017 //
 
 import java.util.Scanner ;
 
 public class Project1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner stringInput ;
 		String word ;
