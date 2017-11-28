@@ -1,11 +1,10 @@
-// Joshua Ciffer 4/24/2017
+// Joshua Ciffer 4/24/2017 //
 
 import java.util.Scanner ;
 
 public class Lesson91_4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner Input = new Scanner(System.in) ;
 		System.out.print("Type yes or no: ") ;

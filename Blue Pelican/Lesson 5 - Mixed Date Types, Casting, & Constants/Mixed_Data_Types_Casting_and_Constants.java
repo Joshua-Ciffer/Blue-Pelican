@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/8/2017
+// Joshua Ciffer 2/8/2017 //
+
 public class Mixed_Data_Types_Casting_and_Constants {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		double d = 29.78 ;
 		int i = (int)d ;
@@ -24,9 +24,6 @@ public class Mixed_Data_Types_Casting_and_Constants {
 		
 		double ab_d = (double)a/b ;
 		System.out.println(ab_d) ;
-		
-		
-		
 		
 	}
 

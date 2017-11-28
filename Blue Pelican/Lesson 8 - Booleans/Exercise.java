@@ -1,9 +1,8 @@
-// Joshua Ciffer 4/3/2017
+// Joshua Ciffer 4/3/2017 //
 
 public class Exercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int z = 23, x = -109 ;
 		double c = 2_345.19, v = 157.03 ;
@@ -20,7 +19,6 @@ public class Exercise {
 		System.out.println("#4: " + (r || false)) ;
 		// #5
 		System.out.println("#5: " + (z!=x)) ;
-		
 		
 	}
 

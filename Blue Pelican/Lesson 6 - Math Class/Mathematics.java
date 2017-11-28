@@ -1,8 +1,8 @@
-// Joshua Ciffer 3/27/2017
+// Joshua Ciffer 3/27/2017 //
+
 public class Mathematics {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		//int number = Math.abs(-5) ;
 		System.out.println() ;

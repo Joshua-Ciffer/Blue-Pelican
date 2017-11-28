@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/21/2017
+// Joshua Ciffer 2/21/2017 //
+
 public class Lesson_Four_Assignment {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// Problem #1
 		int h = 103 ;

@@ -1,11 +1,10 @@
-// Joshua Ciffer 4/3/2017
+// Joshua Ciffer 4/3/2017 //
 
 import java.util.Scanner ;
 
 public class Test2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner Num_Input = new Scanner(System.in) ;
 		Scanner String_Input = new Scanner(System.in) ;
@@ -14,10 +13,9 @@ public class Test2 {
 		System.out.println("What is the price?") ;
 		double Price = Num_Input.nextDouble() ;
 		double Tax = 0 ;
-		if ((State.equalsIgnoreCase("Texas")) || (State.equalsIgnoreCase("Tx")))
-			{
+		if ((State.equalsIgnoreCase("Texas")) || (State.equalsIgnoreCase("Tx"))) {
 				Tax = Price * .08 ;
-			}
+		}
 		double Total = Price + Tax ;
 		System.out.println("Total is: $" + Total) ;
 		

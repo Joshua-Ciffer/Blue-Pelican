@@ -1,8 +1,8 @@
-// Joshua Ciffer 3/24/2017
+// Joshua Ciffer 3/24/2017 //
+
 public class Lesson_5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// #1
 		final double E = 2.718 ;
@@ -69,7 +69,6 @@ public class Lesson_5 {
 		d2 = 1004.128 ;
 		//int i1 = 12 ;
 		//int i2 = 18 ;
-		
 		
 	}
 

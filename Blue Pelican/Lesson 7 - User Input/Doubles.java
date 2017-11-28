@@ -1,11 +1,10 @@
-// Joshua Ciffer 3/28/2017
+// Joshua Ciffer 3/28/2017 //
 
 import java.util.Scanner ;
 
 public class Doubles {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner input = new Scanner(System.in) ;
 		System.out.println("Enter your decimal number here: ") ;

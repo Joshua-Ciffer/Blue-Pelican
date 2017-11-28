@@ -1,11 +1,10 @@
-// Joshua Ciffer 4/24/2014
+// Joshua Ciffer 4/24/2014 //
 
 import java.util.Scanner ;
 
 public class Exercises {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// #1
 		System.out.println("#1: 3 data types that can be used in switch statments are Strings, Integers, and Characters") ;
@@ -90,4 +89,3 @@ public class Exercises {
 	}
 
 }
- 

@@ -1,11 +1,10 @@
-// Joshua Ciffer 3/30/2017
+// Joshua Ciffer 3/30/2017 //
 
 import java.util.Scanner ;
 
 public class Project_1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println("-----Radius of a Circle Calculator-----") ;
 		Scanner Area_Input = new Scanner(System.in) ;
@@ -15,7 +14,7 @@ public class Project_1 {
 		double Radius = (Math.sqrt(Area / Math.PI)) ;
 		System.out.println("Radius: " + Radius) ;
 		System.out.println("Area: " + Area) ;
+		
 	}
 
 }
-

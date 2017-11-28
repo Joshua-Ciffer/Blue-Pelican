@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/10/2017
+// Joshua Ciffer 2/10/2017 //
+
 public class Lesson_5_Exercise {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// Problem #1
 		final double E = 2.718 ;
@@ -74,8 +74,6 @@ public class Lesson_5_Exercise {
 		k*=.5; 
 		System.out.println("Problem #18: " + k) ;
 			
-		
-		
 	}
 
 }

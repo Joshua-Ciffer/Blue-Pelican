@@ -1,9 +1,8 @@
-// Joshua Ciffer 4/24/2017
+// Joshua Ciffer 4/24/2017 //
 
 public class Switch_On_String {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String s = "Hello" ;
 		
@@ -20,7 +19,6 @@ public class Switch_On_String {
 			default:
 				System.out.println("What did you say?") ;
 		}
-		
 		
 	}
 

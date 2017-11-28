@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/21/2017
+// Joshua Ciffer 2/21/2017 //
+
 public class Lesson_Four_Notes {
 
 	public static void main(String[] args) {
-		//Auto-generated method stub
 
 		//Modulus
 		System.out.println(27%4) ; //3

@@ -1,11 +1,10 @@
-// Joshua Ciffer 3/30/2017
+// Joshua Ciffer 3/30/2017 //
 
 import java.util.Scanner ;
 
 public class Project_2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println("-----Test Grade Averager-----") ;
 		Scanner Test1 = new Scanner(System.in) ;

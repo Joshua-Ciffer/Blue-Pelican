@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/6/2017
+// Joshua Ciffer 2/6/2017 //
+
 public class Numeric_Variables {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int x = 3 ;
 		double y = 7 ;
@@ -19,7 +19,6 @@ public class Numeric_Variables {
 		
 		//Decrements
 		System.out.println(--num) ;
-		
 		
 	}
 

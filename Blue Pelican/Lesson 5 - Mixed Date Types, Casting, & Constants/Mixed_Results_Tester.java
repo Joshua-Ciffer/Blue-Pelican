@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/10/2017
+// Joshua Ciffer 2/10/2017 //
+
 public class Mixed_Results_Tester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		double d1 = 37.9 ;
 		//double d2 = 1_004.128 ;

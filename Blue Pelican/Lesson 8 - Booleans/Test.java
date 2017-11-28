@@ -1,9 +1,8 @@
-// Joshua Ciffer 4/3/2017
+// Joshua Ciffer 4/3/2017 //
 
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int y = 7 ;
 		boolean b = true ;
@@ -14,7 +13,7 @@ public class Test {
 		System.out.println(true&&!false) ;
 		System.out.println(!true) ;
 		boolean a = (!(y==3) && (b==true)) ;
-		System.out.println(a);
+		System.out.println(a) ;
 		
 	}
 

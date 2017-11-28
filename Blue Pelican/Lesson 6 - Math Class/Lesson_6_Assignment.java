@@ -1,8 +1,8 @@
-// Joshua ciffer 3/27/2017
+// Joshua ciffer 3/27/2017 //
+
 public class Lesson_6_Assignment {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// #1
 		double x = 9 ;

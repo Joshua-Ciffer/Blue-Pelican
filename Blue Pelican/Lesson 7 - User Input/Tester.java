@@ -1,11 +1,10 @@
-// Joshua Ciffer 3/28/2017
+// Joshua Ciffer 3/28/2017 //
 
 import java.util.Scanner ;
 
 public class Tester {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner inputScan = new Scanner(System.in) ;
 		System.out.println("What's your age? ") ;
@@ -19,7 +18,6 @@ public class Tester {
 		String name = StringScanner.nextLine() ;
 		System.out.println("Your name is: " + name) ;
 		StringScanner.close() ;
-		
 		
 	}
 

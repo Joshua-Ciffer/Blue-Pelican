@@ -5,7 +5,6 @@ import java.util.Scanner ;
 public class Do_Now {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner Name_Input = new Scanner(System.in) ;
 		Scanner Age_Input = new Scanner(System.in) ;

@@ -1,8 +1,8 @@
-// Joshua Ciffer 2/21/2017
+// Joshua Ciffer 2/21/2017 //
+
 public class Arithmetic_Assignment {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		String Problem1 = "79 + 3 * (4 + 82 - 68) - 7 + 19" ;
 		String Problem2 = "(179 + 21 + 10) / 7 + 181" ;

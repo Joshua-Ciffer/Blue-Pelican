@@ -1,11 +1,10 @@
-// Josuha Ciffer 4/25/2017
+// Joshua Ciffer 4/25/2017 //
 
 import java.util.Scanner ;
 
 public class Project2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner Num_Input ;
 		double Earth_Weight ;

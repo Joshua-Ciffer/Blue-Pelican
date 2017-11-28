@@ -46,7 +46,6 @@ public class Lesson_3_2_Escape_Characters_Assignment {
 		System.out.print(word.substring(12, 18).toLowerCase() + "\\" + word.substring(0, 6).length() + "\n") ;
 		System.out.println(word.substring(20, 24).toUpperCase() + "\\" + word.substring(0, 4).length()) ;
 			
-		
 	}
 
 }
