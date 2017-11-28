@@ -1,6 +1,6 @@
 // Joshua Ciffer 10/2/2017 //
 
-package addEmUp ;
+package misc ;
 import java.util.Scanner ;
 
 public class Tester {

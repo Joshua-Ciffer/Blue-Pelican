@@ -1,11 +1,5 @@
 // Joshua Ciffer 10/25/2017 //
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Scanner ;
-
-@SuppressWarnings("unused")
 public class Tester {
 	
 	public static void main(String[] args) {

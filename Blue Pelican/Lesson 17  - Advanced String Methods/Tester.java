@@ -1,4 +1,4 @@
-
+// Joshua Ciffer //
 
 public class Tester {
 
@@ -12,7 +12,6 @@ public class Tester {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println(doStuff("fee fi fo fum")) ;
 		

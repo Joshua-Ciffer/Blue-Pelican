@@ -1,5 +1,6 @@
-package diameter;
-// Joshua Ciffer 6/12/2017
+// Joshua Ciffer 6/12/2017 //
+
+package diameter ;
 
 public class Diameter {
 

@@ -1,7 +1,5 @@
 // Joshua Ciffer 10/29/2017 //
 
-
-
 public class BankAccount {
 
 	private String name ;

@@ -1,5 +1,6 @@
-package bank;
-// Joshua Ciffer 7/4/2017
+// Joshua Ciffer 7/4/2017 //
+
+package bank ;
 
 public class BankAccount {
 

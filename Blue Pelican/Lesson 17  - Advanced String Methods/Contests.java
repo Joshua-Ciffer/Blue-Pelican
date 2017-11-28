@@ -3,6 +3,7 @@
 public class Contests {
 
 	public static void main(String[] args) {
+		
 		System.out.println("#1:" + Tester1.doStuff("I would if I could")) ;
 		System.out.println("#2:" + Tester1.doStuff("fee fi fo fum")) ;
 		System.out.println("#3:" + Tester2.convert("Abe Lincoln")) ;
@@ -16,6 +17,7 @@ public class Contests {
 		System.out.println("#10:" + "Alf Abrams".lastIndexOf('A')) ;
 		System.out.println("#11:") ;
 		Tester7.doStuff("3872345619") ;
+		
 	}
 	
 	static class Tester1 {

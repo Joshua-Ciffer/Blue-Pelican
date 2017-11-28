@@ -3,6 +3,7 @@
 public class Exercises {
 
 	public static void main(String[] args) {
+		
 		String s = "Lucky hockey puck" ;
 		String m = "uck" ;
 		int j = 6, z = 99 ;

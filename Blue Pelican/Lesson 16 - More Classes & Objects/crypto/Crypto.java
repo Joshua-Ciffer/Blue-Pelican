@@ -1,4 +1,4 @@
-// Joshua Ciffer 10/2/2017 ;
+// Joshua Ciffer 10/2/2017 //
 
 package crypto ;
 

@@ -1,5 +1,6 @@
-package random;
 // Joshua Ciffer 9/18/2017 //
+
+package misc ;
 
 public class Safe {
 
@@ -61,6 +62,5 @@ public class Safe {
 	public boolean checkIfOpen() {
 		return isOpen ;
 	}
-	
 	
 }

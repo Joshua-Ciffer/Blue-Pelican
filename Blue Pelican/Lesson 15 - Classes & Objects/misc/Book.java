@@ -1,5 +1,6 @@
-package bank;
-// Joshua Ciffer 9/12/2017 //
+// Joshua Ciffer //
+
+package misc;
 
 public class Book {
 

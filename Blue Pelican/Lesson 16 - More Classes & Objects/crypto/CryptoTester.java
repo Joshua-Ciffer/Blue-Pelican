@@ -3,7 +3,7 @@
 package crypto ;
 import java.util.Scanner ;
 
-public class tester {
+public class CryptoTester {
 
 	public static void main(String[] args) {
 

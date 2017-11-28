@@ -13,6 +13,7 @@ public class Tester {
 	private static boolean exitLoop ;
 	
 	public static void main(String[] args) {
+		
 		userInput = new Scanner(System.in) ;
 		exitLoop = false ;
 		do {	// Begin Main Menu Loop
@@ -93,6 +94,7 @@ public class Tester {
 				}
 			} while (true) ;	// End Continue Loop
 		} while (exitLoop == false) ;	// End Main Menu Loop
+		
 	}
 	
 }

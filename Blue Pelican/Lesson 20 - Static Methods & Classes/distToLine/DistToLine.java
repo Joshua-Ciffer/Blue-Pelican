@@ -1,7 +1,4 @@
 // Joshua Ciffer 11/13/2017 //
-/*
- * 
- */
 
 package distToLine ;
 import static java.lang.Math.* ;

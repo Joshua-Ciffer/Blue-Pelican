@@ -1,5 +1,6 @@
-package random;
-// Joshua Ciffer 6/12/2017
+// Joshua Ciffer 6/12/2017 //
+
+package misc ;
 
 public class Recipe {
 

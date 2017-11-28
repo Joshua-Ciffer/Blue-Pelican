@@ -1,9 +1,9 @@
-package bank;
-// Joshua Ciffer 7/4/2017
+// Joshua Ciffer 7/4/2017 //
 
+package bank ;
 import java.util.Scanner ;
 
-public class Tester {
+public class BankTester {
 
 	public static void main(String[] args) {
 		
