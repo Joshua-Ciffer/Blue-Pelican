@@ -1,6 +1,6 @@
 // Joshua Ciffer 7/3/2017 //
 
-public class Notes {
+public class Lesson14Notes {
 
 	public static void main(String[] args) {
 		

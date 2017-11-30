@@ -1,6 +1,6 @@
 // Joshua Ciffer 7/3/2017 //
 
-public class Exercises {
+public class Lesson14Exercises {
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {

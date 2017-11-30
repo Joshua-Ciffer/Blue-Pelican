@@ -2,7 +2,7 @@
 
 import java.util.Scanner ;
 
-public class Project2 {
+public class WeightProject {
 
 	public static void main(String[] args) {
 

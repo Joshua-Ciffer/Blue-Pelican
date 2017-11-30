@@ -2,7 +2,7 @@
 
 import java.util.Scanner ;
 
-public class Project {
+public class CalculatorProject {
 
 	public static void main(String[] args) {
 
