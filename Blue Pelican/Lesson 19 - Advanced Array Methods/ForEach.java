@@ -1,6 +1,6 @@
 // Joshua Ciffer 10/25/2017 //
 
-public class Tester {
+public class ForEach {
 	
 	public static void main(String[] args) {
 

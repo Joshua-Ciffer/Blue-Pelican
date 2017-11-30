@@ -1,10 +1,9 @@
 // Joshua Ciffer 10/29/2017 //
 
 import java.util.Scanner ;
-import bank.BankAccount ;
 import java.util.InputMismatchException ;
 
-public class Bank {
+public class BankRunner {
 
 	private static Scanner userInput = new Scanner(System.in) ;
 	private static BankAccount[] customers = new BankAccount[5] ;

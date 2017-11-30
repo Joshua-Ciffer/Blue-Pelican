@@ -6,7 +6,7 @@ import java.util.InputMismatchException ;
 import java.util.Scanner ;
 import java.util.ArrayList ;
 
-public class Tester {
+public class FileParser {
 
 	public static void main(String[] args) {
 
