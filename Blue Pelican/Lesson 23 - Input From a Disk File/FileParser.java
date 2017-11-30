@@ -32,9 +32,7 @@ public class FileParser {
 			scanner.close() ;
 			txt.renameTo(new File("E:\\Date.in")) ;
 			txt.delete() ;
-			
-			
-			
+				
 		}
 	}
 

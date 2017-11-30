@@ -1,6 +1,6 @@
 // Joshua Ciffer //
 
-package misc;
+package misc ;
 
 public class Book {
 
