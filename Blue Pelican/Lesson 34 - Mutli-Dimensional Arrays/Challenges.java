@@ -4,7 +4,7 @@ import java.util.InputMismatchException ;
 /**
  * Multidimensional Array Challenge Problems.
  * 
- * @author Joshua Ciffer
+ * @author Joshua Ciffer, Brian Williams
  * @version 12/13/2017
  */
 public abstract class Challenges {
