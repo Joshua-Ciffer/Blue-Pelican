@@ -7,7 +7,7 @@ import java.util.InputMismatchException ;
  * @author Joshua Ciffer, Brian Williams
  * @version 12/13/2017
  */
-public abstract class Challenges {
+public abstract class MultiDChallenges {
 
 	public static void main(String[] args) {
 		do {	// Begin Main Program Loop
