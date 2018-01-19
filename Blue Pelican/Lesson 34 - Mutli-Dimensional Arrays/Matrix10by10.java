@@ -1,7 +1,7 @@
 
 /**
  * 
- * @author Joshua Ciffert
+ * @author Joshua Ciffer
  * @version 12/12/2017
  */
 public class Matrix10by10 {
