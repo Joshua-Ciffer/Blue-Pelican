@@ -1,5 +1,3 @@
-import java.util.Scanner;
-import java.util.InputMismatchException;
 
 /**
  * 
@@ -8,61 +6,44 @@ import java.util.InputMismatchException;
  */
 public abstract class FunArray {
 
-	static Scanner userInput = new Scanner(System.in);
-	
 	static int[][] intArr = {{4, 6, 2, 1, 8}, {3, 8, 1, 0, 3}, {8, 3, 7, 4, 1}, {8, 3, 4, 1, 7}};
 
 	static double[][] doubleArr = new double[4][5];
 
 	public static void main(String[] args) {
-//		System.out.println("Fill the array");
-//		for (int i = 0; i < doubleArr.length; i++) {
-//			for (int j = 0; j < doubleArr[i].length; j++) {
-//				do {
-//					System.out.print("Enter a double: ");
-//					try {
-//						doubleArr[i][j] = userInput.nextDouble();
-//						break;
-//					} catch (InputMismatchException e) {
-//						System.out.println("\nEnter a double.\n");
-//						userInput.next();
-//						continue;
-//					}
-//				} while (true);
-//			}
-//		}
-//		int[] x = {4, 0, 3, 6, 0};
-//		int[] y = noZeros(x);
-//		for (int i = 0; i < y.length; i++) {
-//			System.out.println(y[i]);
-//		}
+
 	}
-	
+
+	static void mirrorArray(int[] x) {
+		for (int i = 0; i < x.length; i++) {
+			if (i >= (x.length / 2)) {
+				x[i] = x[(x.length - 1) - i];
+			}
+		}
+	}
+
 	static int[] noZeros(int[] x) {
-		int newArrLength = 0;
+		int numZeros = 0;
+		for (int i = 0; i < x.length; i++) {
+			if (x[i] == 0) {
+				numZeros++;
+			}
+		}
+		int[] newArr = new int[x.length - numZeros];
+		int arrPosition = 0;
 		for (int i = 0; i < x.length; i++) {
 			if (x[i] != 0) {
-				newArrLength++;
+				newArr[arrPosition] = x[i];
+				arrPosition++;
 			}
 		}
-		int[] noZeroArr = new int[newArrLength + 1];
-		int xCounter = 0;
-		for (int i = 0; i < newArrLength; i++) {
-			for (int j = 0; j < x.length; j++) {
-				if (x[j + xCounter] != 0) {
-					noZeroArr[i] = x[j + xCounter];
-					xCounter++;
-					break;
-				}
-			}
-		}
-		return noZeroArr;
+		return newArr;
 	}
 
 	static void printAll(double[][] x) {
-		for (int i = 0; i < x.length; i++) {
-			for (int j = 0; j < x[i].length; j++) {
-				System.out.print(x[i][j] + "\t");
+		for (int row = 0; row < x.length; row++) {
+			for (int col = 0; col < x[row].length; col++) {
+				System.out.print(x[row][col] + "\t");
 			}
 			System.out.print("\n");
 		}
@@ -78,18 +59,20 @@ public abstract class FunArray {
 	}
 
 	static double[][] combineLikeTerms(double[][] x, double[][] y) {
-		double[][] likeTermArr = new double[x.length][];
-		for (int i = 0; i < likeTermArr.length; i++) {
-			likeTermArr[i] = new double[x[i].length];
-		}
 		for (int i = 0; i < x.length; i++) {
 			for (int j = 0; j < x[i].length; j++) {
 				if (x[i][j] == y[i][j]) {
-					likeTermArr[i][j] = x[i][j] * y[i][j];
+					x[i][j] = x[i][j] * y[i][j];
 				}
 			}
 		}
-		return likeTermArr;
+		return x;
+	}
+
+	static void printArray(int[] x) {
+		for (int i = 0; i < x.length; i++) {
+			System.out.print(x[i] + " ");
+		}
 	}
 
 }
