@@ -1,4 +1,4 @@
-# BP-Java
+# Blue-Pelican
 All code written by: Joshua Ciffer
 
 This repository contains code from problems found in the Blue Pelican Java textbook.  This textbook can be found here:
