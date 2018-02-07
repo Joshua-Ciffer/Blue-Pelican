@@ -2,16 +2,19 @@
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.io.PrintStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
 public class FileParser {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 
-		File textFile = new File("C:\\Users\\Joshua\\Desktop\\File.txt")
-		OutputStream out = new OutputStream();
+		File textFile = new File("C:\\Users\\Joshua\\Desktop\\File.txt");
+		FileOutputStream out = new FileOutputStream(textFile);
 		PrintStream print = new PrintStream(out);
 		
 		
