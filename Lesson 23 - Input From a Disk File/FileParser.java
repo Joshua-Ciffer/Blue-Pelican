@@ -3,7 +3,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.OutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -11,12 +11,11 @@ import java.util.ArrayList;
 
 public class FileParser {
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args) throws IOException {
 
 		File textFile = new File("C:\\Users\\Joshua\\Desktop\\File.txt");
 		FileOutputStream out = new FileOutputStream(textFile);
 		PrintStream print = new PrintStream(out);
-		
 		
 		Scanner scanner = null;
 		File txt = new File("E:\\Data.in");
@@ -38,10 +37,12 @@ public class FileParser {
 			for (String x : list) {
 				System.out.println(x);
 			}
+			print.print("TESTING");
 			scanner.close();
 			txt.renameTo(new File("E:\\Date.in"));
 			txt.delete();
-
+			print.close();
+			out.close();
 		}
 	}
 
