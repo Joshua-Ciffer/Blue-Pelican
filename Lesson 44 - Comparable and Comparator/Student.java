@@ -1,5 +1,6 @@
 
 
+@SuppressWarnings("rawtypes")
 public class Student implements Comparable {
 
 	private int id;
